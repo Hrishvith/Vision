@@ -1,0 +1,40 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+dist/
+build/
+
+# Virtual environment
+.venv/
+venv/
+env/
+
+# Model binaries (large files)
+*.caffemodel
+*.pt
+
+# Logs & temp
+*.log
+pip_install.txt
+run_diag_out.txt
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Test/diag scripts
+diag.py
+run_diag.py
+test_api.py
+test_model.py
+test_setup.py
+check_api.py
+write_dashboard.py
+model/ 
